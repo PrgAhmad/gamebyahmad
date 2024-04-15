@@ -58,7 +58,7 @@ options.forEach((option) => {
     
 });
 let click = () => {
-    const btn=new Audio("click.wav");
+    const btn=new Audio("click1.mp3");
     btn.play();
 }
 let win = () => {
