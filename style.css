@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+body{
+    background-color: darkkhaki;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+h1{
+    background-color: palevioletred;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    width: 100%;
+}
+button{
+    margin-top: 2rem; 
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 0.5rem; 
+    background-color: pink;
+    font-size: 1rem;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #262627;
+}
+.inleft{
+    background-color: white;
+}
+.inright{
+    background-color: #262627; 
+}
+
+.options{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.option{
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option:hover{
+    background-color: black;
+}
+img{
+    width: 170px;
+    height: 170px; 
+    object-fit: cover;
+    border-radius: 50%;   
+}
+.text{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: yellow;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 15rem;
+    margin: auto;
+    border-radius: 1rem ;
+}
+.score{
+    display: flex;
+    justify-content: space-around;
+    width: 15rem;
+    margin: auto; 
+}
+.robot-score, .user-score{
+font-size: 4rem;
+}
+.name{
+    font-size: 2rem;
+}
+.message{
+    margin-top: 3rem;
+}
+.msg{
+    display: inline;
+    font-size: 2.5rem;
+    color: white;
+}
+.msg1{
+    color: green;
+}
+.msg2{
+    color: red;
+}
+.msg3{
+   color: blue;
+}
+h4{
+    margin-top: 2rem;
+    font-size: larger;
+}
