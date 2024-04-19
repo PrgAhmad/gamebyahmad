@@ -1,9 +1,9 @@
 # gamebyahmad
 Game Inspiration : Apna College.
 <br>
-Author : Ahmad Raza.
+Update By Ahmad Raza.
 <br>
 I Add on Some Features.
 <br>
-This Rock Paper Scissors Game. 
+Rock Paper Scissors Game. 
 <br>
