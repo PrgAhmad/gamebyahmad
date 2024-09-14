@@ -59,14 +59,7 @@ options.forEach((option) => {
 });
 let click = () => {
     const btn=new Audio("click1.mp3");
-    btn.play();
-}
-let win = () => {
-    const btn= new Audio("win.mp3");
-    btn.play();
-}
-let lose = () => {
-    const btn= new Audio("lose.mp3");
+    btn.volume=0.5;
     btn.play();
 }
 let reset=document.querySelector("button");
